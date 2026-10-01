@@ -26,4 +26,4 @@ Paste the contents of [`PROMPT.md`](PROMPT.md) into Claude Code (or any AI assis
 | `themes/paper-a11y` | Light theme |
 | `themes/paper-a11y-dark` | Dark theme |
 | `PROMPT.md` | Setup prompt for AI assistants |
-| `install.sh` | One-line install script (contains a copy of all of the above) |
+| `install.sh` | One-line install script (embeds the config and both themes) |
