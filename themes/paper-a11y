@@ -1,5 +1,5 @@
-# Paper A11y — 浅色、WCAG AA 友好的 Ghostty 主题
-# 所有 16 色在背景 #FBFAF7 上对比度 ≥ 4.5:1
+# Paper A11y - a light, WCAG AA friendly Ghostty theme
+# All 16 colors have a contrast ratio >= 4.5:1 on background #FBFAF7
 background = #FBFAF7
 foreground = #1C1E21
 cursor-color = #0E6B5C
@@ -7,7 +7,7 @@ cursor-text = #FFFFFF
 selection-background = #CFE3DE
 selection-foreground = #1C1E21
 
-# 普通色
+# Normal colors
 palette = 0=#1C1E21
 palette = 1=#B42318
 palette = 2=#1A7F37
@@ -16,7 +16,7 @@ palette = 4=#1F5FBF
 palette = 5=#8E3FA0
 palette = 6=#0E6B5C
 palette = 7=#5A5F66
-# 亮色（浅底上加深以强调）
+# Bright colors (darkened for emphasis on a light background)
 palette = 8=#4A4E55
 palette = 9=#9A1B12
 palette = 10=#146B2D
