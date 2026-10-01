@@ -1,29 +1,29 @@
 # Ghostty Config
 
-我的 [Ghostty](https://ghostty.org) 终端配置（macOS）。
+My [Ghostty](https://ghostty.org) terminal config for macOS.
 
-- **配色**：自制 Paper A11y 主题，浅色 / 深色跟随系统切换，16 色对比度均 ≥ 4.5:1（WCAG AA）
-- **字体**：Geist Mono，中文回退苹方，14 号，行高 +15%
-- **兜底**：`minimum-contrast = 4.5`，程序输出的低对比度颜色会被自动调整
+- **Colors**: custom Paper A11y themes, light and dark, switching with the system appearance. All 16 palette colors meet a contrast ratio of at least 4.5:1 (WCAG AA).
+- **Font**: Geist Mono at 14pt with 15% extra line height, falling back to PingFang SC for Chinese.
+- **Safety net**: `minimum-contrast = 4.5`, so Ghostty automatically adjusts any low-contrast colors that programs output.
 
-## 一键安装
+## One-line install
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Soyn/ghostty-config/main/install.sh | bash
 ```
 
-脚本会安装主题、写入配置（旧配置自动备份为 `config.bak.<时间戳>`），并安装 Geist Mono 字体（优先 Homebrew，否则从 GitHub 下载）。完成后重启 Ghostty 或按 `Cmd + Shift + ,` 重新加载。
+The script installs the themes, writes the config (backing up any existing one as `config.bak.<timestamp>`), and installs Geist Mono (via Homebrew if available, otherwise from GitHub). Then restart Ghostty or press `Cmd + Shift + ,` to reload the config.
 
-## 让 AI 一键配置
+## Set up with an AI assistant
 
-把 [`PROMPT.md`](PROMPT.md) 的内容粘贴给 Claude Code（或其他能执行命令的 AI 助手）即可。
+Paste the contents of [`PROMPT.md`](PROMPT.md) into Claude Code (or any AI assistant that can run commands). It will install Ghostty if needed, review the script before running it, verify the result, and ask before merging any settings from your old config.
 
-## 文件
+## Files
 
-| 文件 | 说明 |
+| File | Description |
 | --- | --- |
-| `config` | 主配置 |
-| `themes/paper-a11y` | 浅色主题 |
-| `themes/paper-a11y-dark` | 深色主题 |
-| `PROMPT.md` | 给 AI 助手用的配置 prompt |
-| `install.sh` | 一键安装脚本（已内嵌以上所有内容） |
+| `config` | Main config |
+| `themes/paper-a11y` | Light theme |
+| `themes/paper-a11y-dark` | Dark theme |
+| `PROMPT.md` | Setup prompt for AI assistants |
+| `install.sh` | One-line install script (contains a copy of all of the above) |
