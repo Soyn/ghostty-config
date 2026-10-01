@@ -14,6 +14,10 @@ curl -fsSL https://raw.githubusercontent.com/Soyn/ghostty-config/main/install.sh
 
 脚本会安装主题、写入配置（旧配置自动备份为 `config.bak.<时间戳>`），并安装 Geist Mono 字体（优先 Homebrew，否则从 GitHub 下载）。完成后重启 Ghostty 或按 `Cmd + Shift + ,` 重新加载。
 
+## 让 AI 一键配置
+
+把 [`PROMPT.md`](PROMPT.md) 的内容粘贴给 Claude Code（或其他能执行命令的 AI 助手）即可。
+
 ## 文件
 
 | 文件 | 说明 |
@@ -21,4 +25,5 @@ curl -fsSL https://raw.githubusercontent.com/Soyn/ghostty-config/main/install.sh
 | `config` | 主配置 |
 | `themes/paper-a11y` | 浅色主题 |
 | `themes/paper-a11y-dark` | 深色主题 |
+| `PROMPT.md` | 给 AI 助手用的配置 prompt |
 | `install.sh` | 一键安装脚本（已内嵌以上所有内容） |
