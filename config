@@ -1,0 +1,12 @@
+# ---- 配色 ----
+theme = light:paper-a11y,dark:paper-a11y-dark
+# 兜底：程序输出的任意颜色若对比度不足，Ghostty 会自动调整到 ≥ 4.5:1
+minimum-contrast = 4.5
+
+# ---- 字体 ----
+font-family = Geist Mono
+# 中文回退到苹方
+font-family = PingFang SC
+font-size = 14
+# 行距加大 15%，长时间阅读更轻松
+adjust-cell-height = 15%

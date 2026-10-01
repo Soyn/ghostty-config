@@ -1,0 +1,27 @@
+# Paper A11y Dark — 与 paper-a11y 同风格的深色主题
+# 所有 16 色在背景 #17191C 上对比度 ≥ 4.5:1
+background = #17191C
+foreground = #E6E4DF
+cursor-color = #4FBFAB
+cursor-text = #17191C
+selection-background = #2F4A45
+selection-foreground = #E6E4DF
+
+# 普通色
+palette = 0=#7E8187
+palette = 1=#F2706A
+palette = 2=#5CBF74
+palette = 3=#D9A441
+palette = 4=#6FA3F0
+palette = 5=#C987D9
+palette = 6=#4FBFAB
+palette = 7=#B8B5AE
+# 亮色
+palette = 8=#8A8D93
+palette = 9=#FF9A93
+palette = 10=#86D99A
+palette = 11=#F0C46E
+palette = 12=#9CC2FA
+palette = 13=#DEAEEA
+palette = 14=#82D9C9
+palette = 15=#F5F3EE
